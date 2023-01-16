@@ -1,0 +1,176 @@
+*{
+    background-color: pink;
+}
+
+.name{
+    font-size: x-large;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.slideshow{
+    width: 100%;
+    margin: auto;
+    border: 5px solid;
+    position: relative;
+}
+
+.imgslide{
+    display: flex;
+    width: 300%;
+    height: 500px;
+}
+
+#prev{
+    position:absolute;
+    top: 60%;
+    z-index: 10;
+    left: 0%;
+    font-size: 400%;
+    color: black;
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+#next{
+    position:absolute;
+    top: 60%;
+    z-index: 10;
+    right: 0%;
+    font-size: 400%;
+    color: black;
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+/* 2nd part */
+
+.about{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    width: 60%;
+    margin: 1rem auto 0 auto;
+}
+
+.about h1{
+    margin: 0;
+    color: black;
+}
+
+.about img{
+    height: 500px;
+    float: right;
+}
+
+.about p{
+    color: black;
+    padding-right: 50px;
+    padding-top: 30px;
+}
+
+/* Part 3 */
+
+.third{
+    align-items: center;
+}
+
+.third h1{
+    padding-top: 100px;
+    padding-left: 10%;
+}
+
+.img{
+    display: grid;
+    grid-template-columns: 500px 500px 500px;
+}
+
+.img2{
+    width: 300px;
+    height: 300px;
+}
+
+.img3{
+    width: 300px;
+    height: 300px;
+}
+
+.img1{
+    width: 400px;
+    height: 400px;
+
+}
+
+.third h1{
+    font-size: 4vmax;
+}
+
+.p{
+    display: grid;
+    grid-template-columns: 500px 500px 500px;
+}
+
+/* part3 */
+
+.actress{
+    display: grid;
+    grid-template-columns: 30% 40% 40% 25%;
+}
+
+.actress img{
+    width: 400px;
+    height: 400px;
+}
+
+
+.actress p{
+    font-size: 1.5vmax;
+}
+
+.p2{
+    grid-column-start: 3;
+}
+
+/* part5 */
+
+.quotes img{
+    width: 400px;
+    height: 400px;
+}
+
+.quotes{
+    display: flex;
+}
+
+.quotes p{
+    font-size: 3vmax;
+}
+
+/* part 6 */
+
+.last img{
+    width: 400px;
+    height: 400px;
+}
+
+.last{
+    display: grid;
+    grid-template-columns: 70% 50%;
+}
+
+.last p{
+    font-size: 5vmax;
+}
+
+.ref{
+    font-size: 3vmin;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+
+
+
+
